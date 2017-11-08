@@ -42,5 +42,5 @@ contract testContract {
     }
 }
 
-// getters do not creat new blocks but setters do miners do the apending.
+// getters do not create new blocks but setters do miners do the apending.
 
