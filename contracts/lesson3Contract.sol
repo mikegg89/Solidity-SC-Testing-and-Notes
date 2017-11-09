@@ -47,6 +47,8 @@ contract CustodialContract{
     address client;
     bool _switch = false;
     
+    // this is a constructor, that fires when the contract is deployed, we know this
+    // because the function name and the contract name are the same.
     function CustodialContract(){
         client = msg.sender;
     }
