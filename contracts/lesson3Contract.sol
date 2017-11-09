@@ -3,7 +3,7 @@ pragma solidity ^0.4.0;
     /** 3. In this lession we are going to transfer some Ether to a contract and
      * get some ether from a contract.
      *  We are going to make a payable contract, and send wei which 
-     * is the smallest amount of ether you can have wei is 10 to the power of 18 
+     * is the smallest amount of ether you can have, wei is 10 to the power of 18 
      * at the creation of the contract you should never send ether to it, so dont
      * do this in a constructor it will crash.
      * You will need to send ether in a function. payable is a keyword in solidity
