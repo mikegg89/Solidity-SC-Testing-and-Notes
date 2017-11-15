@@ -1,6 +1,6 @@
 pragma solidity ^0.4.10;
 
-/** This is from the DesignCourse Video Series on you tube the I added the part:
+/** This is from the DesignCourse Video Series on youtube the I added the part:
     modifier onlyFiveAccounts () {
         assert(ownersAccounts.length <= 4);
         _;
